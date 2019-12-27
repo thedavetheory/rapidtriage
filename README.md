@@ -8,6 +8,5 @@ Automatically exported from code.google.com/p/rapidtriage
 -Run 'pyinstaller --onefile rapidtriage.py'
 
 ### Usage
--Transfer executable to remote machine and run using psexec
--Disconnect remote machine from network, change all account passwords
--Use in conjunction with Mandiant Redline to capture live memory for analysis
+-You can run this on a machine while its connected to the network to get some live traffic data, but I wouldn't recommend it. Unplug the machine from the network, run this as the current user, an elevated local user, or both; then analyze the results. Change passwords/clone the disk and reimage if needed for further analysis.
+-Better tools probably exist now, this is old. 
